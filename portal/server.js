@@ -45,8 +45,8 @@ app.use(session({
 //require('./routes/support')(app, request, config.ports);
 
 require('./routes/auth')(app);
-require('./routes/user')(app, request, '4100'');
-require('./routes/bills')(app, request, '3800'');
+require('./routes/user')(app, request, '4100');
+require('./routes/bills')(app, request, '3800');
 require('./routes/accounts')(app, request, '3400');
 require('./routes/transactions')(app, request, '3600');
 require('./routes/support')(app, request, '4000');
